@@ -91,3 +91,61 @@ section{
 
 /*..............Dream area End.............*/
 
+/*--..............Loaer area start.........*/
+
+.experience-area{
+    padding-top:150px;
+    width: 90%;
+} 
+.half-area{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px #918d8d;
+    transition: 0.5s;
+    height: 80%;
+} 
+.half-area:hover{
+    box-shadow: 0 0 0 ;
+    border-left: none;
+    background-color: white;
+}  
+#border{
+    border-left: 7px solid black;
+    border-image:linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+.another-area{
+    width: 40%;
+    float: right;
+    margin-left:5%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px #918d8d;
+    transition: 0.5s;
+    height: 80%;
+}
+.another-area:hover{
+    box-shadow: 0 0 0 ;
+    border-left: none;
+}
+#border1{
+    border-left: 7px solid black;
+    border-image:linear-gradient(360deg,blue,cyan);
+    border-image-slice: 1;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom:100px;
+}
+footer{
+    height: 300px;
+    background-color: #ebe4e4;
+}
+footer p{
+    padding-top:250px;
+    text-align: center;
+    font-size: 14px;
+}
