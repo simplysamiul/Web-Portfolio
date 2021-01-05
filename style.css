@@ -1,11 +1,40 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    
 }
 .text-highilight{
     color: #ff4800;
 }
 h1{
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 600;
+    line-height: 40px;
 }
+h2{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.left-contant{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    padding-: 10px;
+    text-align: justify;
+}
+.right-contant{
+    width: 43%;
+    float: right;
+    margin-top: 20px;
+    
+}
+img{
+    width: 80%;
+    padding: 10px;
+    transition: 1s;
+} 
+.right-contant img:hover{
+    box-shadow:7px 7px 15px #414242;
+}
+
